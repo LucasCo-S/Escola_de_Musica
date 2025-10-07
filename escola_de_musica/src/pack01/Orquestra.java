@@ -13,6 +13,13 @@ public class Orquestra {
             instr.tocar();
         }
     }
+
+    public static void conferir(InstrumentoMusical[] instrumentos){
+        for(InstrumentoMusical instr : instrumentos){
+            instr.mostrarInfo();
+        }
+    }
+
         public static void main(String[] args){
         InstrumentoMusical[] banda = new InstrumentoMusical[4];
 
